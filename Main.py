@@ -1,5 +1,7 @@
 import Palabras
 import Tablero
 
-palabras()
-tablero()
+
+print(Palabras.palabras()) 
+print(Tablero.tablero())
+
