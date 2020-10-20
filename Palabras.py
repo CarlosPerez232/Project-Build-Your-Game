@@ -1,1 +1,3 @@
-"Probando Palabras"
+def palabras():
+    print ("Palabras esta viva")
+
