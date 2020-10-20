@@ -71,4 +71,6 @@ IMAGES = ['''
 
 
 def tablero(mistakes, secret_word):
-        print(f'{IMAGES[mistakes]}\n{secret_word}')
+        print(f"{IMAGES[mistakes]}\n{''.join(secret_word)}")
+
+tablero(2, ['-','a','l','-','-','r','a'])
