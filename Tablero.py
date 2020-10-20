@@ -1,3 +1,74 @@
-#Esta es la funcion del tablero
-def tablero():
-	print('El tablero está funcionando! :D')
+
+IMAGES = ['''
+        ¡B I E N V E N I D E  A  A H O R C A D O S!
+    +---+
+    |   |
+        |
+        |
+        |
+        |
+        =========''', '''
+
+    +---+
+    |   |
+    O   |
+        |
+        |
+        |
+        =========''', '''
+
+    +---+
+    |   |
+    O   |
+    |   |
+        |
+        |
+        =========''', '''
+
+    +---+
+    |   |
+    O   |
+   /|   |
+        |
+        |
+        =========''', '''
+
+    +---+
+    |   |
+    O   |
+   /|\  |
+        |
+        |
+        =========''', '''
+
+    +---+
+    |   |
+    O   |
+   /|\  |
+    |   |
+        |
+        =========''', '''
+
+    +---+
+    |   |
+    O   |
+   /|\  |
+    |   |
+   /    |
+        =========''', '''
+        ¡ Q U E D É!
+    +---+
+    |   |
+    O   |
+   /|\  |
+    |   |
+   / \  |
+        =========
+
+        G A M E  O V E R.''', '''
+''']
+
+
+
+def tablero(mistakes, secret_word):
+        print(f'{IMAGES[mistakes]}\n{secret_word}')
