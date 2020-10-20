@@ -1,2 +1,5 @@
 #Esta es la funcion del tablero
-print('Hello World! :)')
+def tablero():
+	print('El tablero está funcionando! :D')
+
+tablero()
