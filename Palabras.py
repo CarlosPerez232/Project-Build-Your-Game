@@ -28,5 +28,4 @@ def palabras():
 
     
 
-y = palabras()
-print(y)
+
