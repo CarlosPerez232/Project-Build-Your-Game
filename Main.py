@@ -1,7 +1,9 @@
 import Palabras #Importamos la funcion Palabras que devuelve un string aleatorio para jugar
 import Tablero #Importamos la funcion Tablero que despliega el tablero de juego
 
-word = 'prueba' #aqui debemos de poner Palabras.palabras()
+difficult = input('Which leve you wanna play?\[easy, medium, hard]')
+difficult = difficult.lower() 
+word = Palabras.palabras(difficult) #aqui debemos de poner Palabras.palabras()
 secret_word = ['-']* len(word) #El string que mostraremos al user. Es un string del mismo tamaño que word
 mistakes = 0 #Variable de control y que además nos va a permitir imprimir un tablero diferente
 while True:
