@@ -3,12 +3,7 @@ import random
 
 #Ingresa una dificultad para seleccionar una categoría de palabras
 palabras_categoria = {'easy':['mamey','carro','perro'],'medium':['portaaviones','aracnido','turbulencia'],'hard':['onomatopeya','civilizacion','canasta']}
-
- 
-
 def palabras():
-
-    
     while True:
 	dificultad = input('Write the difficult: easy, medium or hard!')
         if dificultad == 'easy':
